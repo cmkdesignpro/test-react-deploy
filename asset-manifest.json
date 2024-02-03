@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-react-deploy/static/css/main.bafc6672.css",
-    "main.js": "/test-react-deploy/static/js/main.d0cbca2c.js",
+    "main.js": "/test-react-deploy/static/js/main.47606979.js",
     "index.html": "/test-react-deploy/index.html",
     "static/media/date.svg": "/test-react-deploy/static/media/date.a95ebe6e89803e2f48884bc7cd347bc0.svg",
     "static/media/trash.svg": "/test-react-deploy/static/media/trash.65329eb4d02d742fbbb673d423203636.svg",
@@ -17,10 +17,10 @@
     "static/media/check.svg": "/test-react-deploy/static/media/check.e07c35adf7078dbf2f813000e3437ad9.svg",
     "static/media/x.svg": "/test-react-deploy/static/media/x.c8494eb2642084db18174e0aac7bfcf6.svg",
     "main.bafc6672.css.map": "/test-react-deploy/static/css/main.bafc6672.css.map",
-    "main.d0cbca2c.js.map": "/test-react-deploy/static/js/main.d0cbca2c.js.map"
+    "main.47606979.js.map": "/test-react-deploy/static/js/main.47606979.js.map"
   },
   "entrypoints": [
     "static/css/main.bafc6672.css",
-    "static/js/main.d0cbca2c.js"
+    "static/js/main.47606979.js"
   ]
 }

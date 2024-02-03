@@ -14,21 +14,24 @@ const TasksSection: React.FC = () => {
     <main className=" pt-5 pb-8 sm:pb-16 px-3 md:px-8 md:w-full xl:w-8/12 m-auto min-h-screen">
       <HeaderTasks />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/today" element={<TodaysTasks />} />
-        <Route path="/important" element={<ImportantTasks />} />
+        <Route path="/test-react-deploy/" element={<Home />} />
+        <Route path="/test-react-deploy/today" element={<TodaysTasks />} />
         <Route
-          path="/completed"
+          path="/test-react-deploy/important"
+          element={<ImportantTasks />}
+        />
+        <Route
+          path="/test-react-deploy/completed"
           element={<DoneTasks done={true} title="Completed tasks" />}
         />
         <Route
-          path="/uncompleted"
+          path="/test-react-deploy/uncompleted"
           element={<DoneTasks done={false} title="Uncompleted tasks" />}
         />
-        <Route path="/results" element={<SearchResults />} />
-        <Route path="/dir/:dir" element={<Directory />} />
-        <Route path="/task/:taskId" element={<TaskOnly />} />
-        <Route path="*" element={<Navigate to="" />} />
+        <Route path="/test-react-deploy/results" element={<SearchResults />} />
+        <Route path="/test-react-deploy/dir/:dir" element={<Directory />} />
+        <Route path="/test-react-deploy/task/:taskId" element={<TaskOnly />} />
+        <Route path="/test-react-deploy*" element={<Navigate to="" />} />
       </Routes>
     </main>
   );

@@ -14,7 +14,7 @@ const SearchResults: React.FC = () => {
     const query = searchParams.get("q");
     if (!query) {
       // se "q" for igual a '' ou "q" não existir
-      navigate("/");
+      navigate("/test-react-deploy");
     } else {
       setCurrQueryParam(query);
     }

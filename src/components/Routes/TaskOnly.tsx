@@ -17,7 +17,7 @@ const TaskOnly: React.FC = () => {
     const taskId = params.taskId;
     const filteredTask = tasks.filter((task: Task) => taskId === task.id);
     if (!filteredTask.length) {
-      navigate("/");
+      navigate("/test-react-deploy");
     }
     setMatchedTask(filteredTask);
   }, [navigate, params.taskId, tasks]);

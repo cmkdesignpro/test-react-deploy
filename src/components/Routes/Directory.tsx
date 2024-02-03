@@ -23,7 +23,7 @@ const Directory: React.FC = () => {
   useEffect(() => {
     const dirExists = directories.includes(params.dir);
     if (!dirExists) {
-      navigate("/");
+      navigate("/test-react-deploy");
     }
     const tasksFiltered = tasks.filter((task: Task) => task.dir === params.dir);
     setTasksInCurrentDirectory(tasksFiltered);
